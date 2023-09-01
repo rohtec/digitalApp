@@ -74,12 +74,12 @@ main {
 	width: 17vw;
 	height: 45vh;
 	padding: 3% 0 0 2%;
-/*     border: 1px solid black; */
+/*    border: 1px solid black;*/
 }
 .butt {
 	z-index: 1;
 	margin-bottom: -5%;
-	width: 9.5rem;
+	width: 10.5rem;
 	height: 2.8rem;
 	border-radius: 25px;
 	border: none;
@@ -132,14 +132,14 @@ bottons {
 	height: 2rem;
 	position: absolute;
 	top: 90px;
-        left: 140px;
+    left: 140px;
 }
 button {  
 	margin: 3px;
 	width: 3.5rem;
 	height: 3.6rem;
 /*	border: 1px solid #e5e5e5;*/
-        border: none;
+    border: none;
 	background-color: white;
 	border-radius: 5px;
 	font-size: 18px;
@@ -147,7 +147,6 @@ button {
 	font-family: Poppins;
 	font-weight: 500;
 	cursor: pointer;
-
 	box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
 }
 button:hover {
@@ -183,26 +182,30 @@ main {
 .first {
 	display: flex;
 	flex-flow: column nowrap;
-        background: linear-gradient(to right, RGBA(60, 60, 60, 1), RGBA(0, 0, 0, 1));
+    background: linear-gradient(to right, RGBA(60, 60, 60, 1), RGBA(0, 0, 0, 1));
 	border-radius: 20px;
-	width: 59.7vw;
-	height: 51vh;
+	width: 79.7vw;
+	height: 62vh;
 	align-items: center;
 }
 .buttons {
     display: flex;
     flex-flow: column nowrap;
-	margin: 8%  3% 0 3%;
+/*	margin: 8%  3% 0 3%;*/
+    position: absolute;
     background-color: white;
 	border-radius: 20px;
-	width: 55.2vw;
-	height: 52vh;
+	width: 74.2vw;
+	height: 57vh;
 	align-items: center;
+	margin-top: 22%;
 }
 .bott {
-	width: 57vw;
-	height: 45vh;
-	padding: 3% 0 0 4%;
+	width: 71vw;
+	height: 54.5vh;
+	padding: 3% 0 0 3%;
+	box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
+    
 }
 #display {
 	direction: ltr;
@@ -236,6 +239,37 @@ main {
 @keyframes typing {
 	from{ width: 0 }
 	to { width: 100% }
+}
+input {
+	flex-flow: column nowrap;
+	display: flex;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	width: 22rem;
+	height: 5rem;
+	background-color: transparent;
+	align-items: baseline;
+	font-size: 35px;
+	font-family: Poppins;
+	font-weight: 500;
+	color: white;
+}
+button {  
+	margin: 3px;
+	width: 4.6rem;
+	height: 4.6rem;
+/*	border: 1px solid #e5e5e5;*/
+    border: none;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 18px;
+	color: black;
+	font-family: Poppins;
+	font-weight: 500;
+	cursor: pointer;
+
+	box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
 }
 
 }
