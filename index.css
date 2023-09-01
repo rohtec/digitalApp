@@ -1,0 +1,241 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+    background-color: white;
+	display: flex;
+	margin: auto;
+}
+
+main {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	width: 70vw;
+	height: 85vh;
+	margin: 4% 12%;
+	box-shadow: 5px 5px 6px rgba(128, 128, 128, 0.5);
+	background: linear-gradient(to bottom, RGBA(244, 125, 104, 0.98), RGBA(248, 27, 115, 0.9));
+}
+.first {
+	display: flex;
+	flex-flow: column nowrap;
+    background: linear-gradient(to right, RGBA(60, 60, 60, 1), RGBA(0, 0, 0, 1));
+	border-radius: 20px;
+	width: 18.1vw;
+	height: 55vh;
+	align-items: center;
+}
+.container {
+	display: flex;
+    font-family: Arial;
+	font-weight: bolder;
+	font-size: 30px;
+	align-items: center;
+    margin-top: 7%;
+    width: 18rem;
+    text-shadow: 2px 2px 4px rgba(60, 60, 60, 0.7);
+	height: 3rem;
+
+}
+#typingtext {
+	padding-left: 5%;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 0;
+	animation-name: typing;
+	animation-duration: 1s;
+	animation-timing-function: steps(30, end);
+	animation-fill-mode: forwards;
+    
+
+}
+@keyframes typing {
+	from{ width: 0 }
+	to { width: 100% }
+}
+.buttons {
+    display: flex;
+    flex-flow: column nowrap;
+	margin: 8%  3% 0 3%;
+    background-color: white;
+	border-radius: 20px;
+	width: 17.2vw;
+	height: 52vh;
+	align-items: center;
+}
+.last {
+      margin-bottom: -5%;
+      border: none;
+}
+.bott {
+	width: 17vw;
+	height: 45vh;
+	padding: 3% 0 0 2%;
+    border: 1px solid black;
+}
+.butt {
+	z-index: 1;
+	margin-bottom: -5%;
+	width: 9.5rem;
+	height: 2.8rem;
+	border-radius: 25px;
+	border: none;
+	font-size: 16px;
+	font-family: Poppins;
+	font-weight: 500;
+	background:linear-gradient(to left, RGBA(244, 125, 104, 0.98), RGBA(248, 27, 115, 1));
+	color: white;
+	cursor: pointer;
+}
+.butt:hover {
+	font-size: 19px;
+	width: 10.5rem;
+	height: 3rem;
+}
+input:active, input:focus {
+     outline: none ;
+    font-family: poppins;
+}
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+
+    -webkit-appearance:none;
+}
+input {
+	flex-flow: column nowrap;
+	display: flex;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	width: 16rem;
+	height: 5rem;
+	background-color: transparent;
+	align-items: baseline;
+	font-size: 35px;
+	font-family: Poppins;
+	font-weight: 500;
+	color: white;
+}
+bottons {
+	display: flex;
+	flex-flow:column nowrap;
+	gap: 15px;
+	
+}
+#type {
+	border: 1px solid black;
+	width: 12rem;
+	height: 2rem;
+	position: absolute;
+	top: 90px;
+    left: 140px;
+}
+button {  
+	margin: 3px;
+	width: 3.5rem;
+	height: 3.6rem;
+/*	border: 1px solid #e5e5e5;*/
+    border: none;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 18px;
+	color: black;
+	font-family: Poppins;
+	font-weight: 500;
+	cursor: pointer;
+
+	box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
+}
+button:hover {
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	font-family: Poppins;
+	font-weight: 500;
+	cursor: pointer;
+
+}
+@media all and (max-width: 768px) {
+
+
+body {
+    background-color: white;
+	display: flex;
+	width: 99vw;
+	height: 99vh;
+}
+main {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	width: 99vw;
+	height: 99vh;
+	margin: 0;
+/*	margin-left: 0;*/
+	box-shadow: 5px 5px 6px rgba(128, 128, 128, 0.5);
+	background: linear-gradient(to bottom, RGBA(244, 125, 104, 0.98), RGBA(248, 27, 115, 0.9));
+}
+
+.first {
+	display: flex;
+	flex-flow: column nowrap;
+    background: linear-gradient(to right, RGBA(60, 60, 60, 1), RGBA(0, 0, 0, 1));
+	border-radius: 20px;
+	width: 59.7vw;
+	height: 51vh;
+	align-items: center;
+}
+.buttons {
+    display: flex;
+    flex-flow: column nowrap;
+	margin: 8%  3% 0 3%;
+    background-color: white;
+	border-radius: 20px;
+	width: 55.2vw;
+	height: 52vh;
+	align-items: center;
+}
+.bott {
+	width: 57vw;
+	height: 45vh;
+	padding: 3% 0 0 4%;
+}
+#display {
+	direction: ltr;
+}
+
+.container {
+	display: flex;
+    font-family: Arial;
+	font-weight: bolder;
+	font-size: 30px;
+	align-items: center;
+    margin-top: 17%;
+    width: 18rem;
+    text-shadow: 2px 2px 4px rgba(60, 60, 60, 0.7);
+	height: 3rem;
+
+}
+
+#typingtext {
+	padding-left: 5%;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	animation-name: typing;
+	animation-duration: 1s;
+	animation-timing-function: steps(30, end);
+	animation-fill-mode: forwards;
+   
+
+}
+@keyframes typing {
+	from{ width: 0 }
+	to { width: 100% }
+}
+
+}
