@@ -74,7 +74,7 @@ main {
 	width: 17vw;
 	height: 45vh;
 	padding: 3% 0 0 2%;
-    border: 1px solid black;
+/*     border: 1px solid black; */
 }
 .butt {
 	z-index: 1;
@@ -132,14 +132,14 @@ bottons {
 	height: 2rem;
 	position: absolute;
 	top: 90px;
-    left: 140px;
+        left: 140px;
 }
 button {  
 	margin: 3px;
 	width: 3.5rem;
 	height: 3.6rem;
 /*	border: 1px solid #e5e5e5;*/
-    border: none;
+        border: none;
 	background-color: white;
 	border-radius: 5px;
 	font-size: 18px;
@@ -183,7 +183,7 @@ main {
 .first {
 	display: flex;
 	flex-flow: column nowrap;
-    background: linear-gradient(to right, RGBA(60, 60, 60, 1), RGBA(0, 0, 0, 1));
+        background: linear-gradient(to right, RGBA(60, 60, 60, 1), RGBA(0, 0, 0, 1));
 	border-radius: 20px;
 	width: 59.7vw;
 	height: 51vh;
