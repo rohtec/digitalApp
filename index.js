@@ -1,15 +1,3 @@
-// let display = document.getElementById('display');
-// let deleteButton = document.getElementById('deleteButton')
-// let currentInput = "";
-
-// deleteButton.addEventListener("click", function () {
-// 	let currentValue = display.value;
-// 	let newValue = currentValue.slice(0, -1);
-// 	display.value = newValue;
-// currentInput = "";
-// currentInput = result.toString();
-// });
-
 function appendToDisplay(character) {
 	let inputField = document.getElementById('display');
 	inputField.value += character;
@@ -37,4 +25,7 @@ function appendToDisplay(character) {
       let inputField = document.getElementById('display');
       inputField.value = inputField.value.slice(0, -1);
   	
+  } function playClickSound() {
+    const clickSound = document.getElementById('click-sound');
+    clickSound.play();
   }
