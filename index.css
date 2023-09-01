@@ -218,7 +218,7 @@ main {
 	font-size: 20px;
 	align-items: center;
        margin-top: 17%;
-       width: 24rem;
+       width: 79.7vw;
        text-shadow: 2px 2px 4px rgba(60, 60, 60, 0.7);
 	height: 3rem;
 
@@ -256,8 +256,8 @@ input {
 	color: white;
 }
 button {  
-	margin: 3px;
-	width: 3.45rem;
+	margin: 4px;
+	width: 3.48rem;
 	height: 4.1rem;
 /*	border: 1px solid #e5e5e5;*/
     border: none;
