@@ -15,38 +15,41 @@
 		<div class="buttons">
 			<div class="bott">
 				<div class="bottons">
-			    <button onclick="clearDisplay('c')">c</button>
-			    <button onclick="appendToDisplay('%')">%</button>
-			    <button onclick="appendToDisplay('<')"><</button>
-				<button onclick="deleteLastCharacter()">Del</button>
+			    <button onclick="clearDisplay('c'); playClickSound()">c</button>
+			    <button onclick="appendToDisplay('%'); playClickSound()">%</button>
+			    <button onclick="appendToDisplay('<'); playClickSound()"><</button>
+				<button onclick="deleteLastCharacter(); playClickSound()">Del</button>
 			</div>
 			<div class="bottons"> 
-				<button onclick="appendToDisplay('7')">7</button>
-				<button onclick="appendToDisplay('8')">8</button>
-				<button onclick="appendToDisplay('9')">9</button>
-				<button onclick="appendToDisplay('/')">/</button>
+				<button onclick="appendToDisplay('7'); playClickSound()">7</button>
+				<button onclick="appendToDisplay('8'); playClickSound()">8</button>
+				<button onclick="appendToDisplay('9'); playClickSound()">9</button>
+				<button onclick="appendToDisplay('/'); playClickSound()">/</button>
 			</div>
 			<div class="bottons">
-				<button onclick="appendToDisplay('4')">4</button>
-				<button onclick="appendToDisplay('5')">5</button>
-				<button onclick="appendToDisplay('6')">6</button>
-				<button onclick="appendToDisplay('*')">*</button>
+				<button onclick="appendToDisplay('4'); playClickSound()">4</button>
+				<button onclick="appendToDisplay('5'); playClickSound()">5</button>
+				<button onclick="appendToDisplay('6'); playClickSound()">6</button>
+				<button onclick="appendToDisplay('*'); playClickSound()">*</button>
 			</div>
 			<div class="bottons">
-				<button onclick="appendToDisplay('1')">1</button>
-				<button onclick="appendToDisplay('2')">2</button>
-				<button onclick="appendToDisplay('3')">3</button>
-				<button onclick="appendToDisplay('-')">-</button>
+				<button onclick="appendToDisplay('1'); playClickSound()">1</button>
+				<button onclick="appendToDisplay('2'); playClickSound()">2</button>
+				<button onclick="appendToDisplay('3'); playClickSound()">3</button>
+				<button onclick="appendToDisplay('-'); playClickSound()">-</button>
 			</div>
 			<div class="bottons">
-				<button onclick="appendToDisplay('00')">00</button>
-				<button onclick="appendToDisplay('0')">0</button>
-				<button onclick="appendToDisplay('.')">.</button>
-				<button onclick="appendToDisplay('+')">+</button>
+				<button onclick="appendToDisplay('00'); playClickSound()">00</button>
+				<button onclick="appendToDisplay('0'); playClickSound()">0</button>
+				<button onclick="appendToDisplay('.'); playClickSound()">.</button>
+				<button onclick="appendToDisplay('+'); playClickSound()">+</button>
 				</div>
 			</div>
 			<div class="last">
-			<button class="butt" onclick="calculateResult()">=</button>
+			<button class="butt" onclick="calculateResult(); playClickSound()">=</button>
+			<audio id="click-sound">
+            	<source src="C:\NewCal\mixkit-fast-double-click-on-mouse-275.wav" type="audio/mpeg">
+            </audio>
 			</div>
 		</div>
 </main>
