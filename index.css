@@ -225,7 +225,7 @@ main {
 }
 
 #typingtext {
-	padding-left: 5%;
+	align-items:center;
 	overflow: hidden;
 	white-space: nowrap;
 	width: 100%;
@@ -257,7 +257,7 @@ input {
 }
 button {  
 	margin: 4px;
-	width: 3.48rem;
+	width: 3.49rem;
 	height: 4.1rem;
 /*	border: 1px solid #e5e5e5;*/
     border: none;
