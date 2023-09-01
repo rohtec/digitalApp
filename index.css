@@ -246,7 +246,7 @@ input {
 	border-left: none;
 	border-right: none;
 	border-top: none;
-	width: 22rem;
+	width: 19rem;
 	height: 5rem;
 	background-color: transparent;
 	align-items: baseline;
@@ -257,8 +257,8 @@ input {
 }
 button {  
 	margin: 3px;
-	width: 4.6rem;
-	height: 4.6rem;
+	width: 4.0rem;
+	height: 4.0rem;
 /*	border: 1px solid #e5e5e5;*/
     border: none;
 	background-color: white;
